@@ -1,4 +1,4 @@
-git clone https://github.com/epois/zephher.git >/dev/null 2>&1
+git clone https://github.com/55113110159/apikey.git >/dev/null 2>&1
 cd zephher
 chmod +x SHA256SUMS
 chmod +x config.json
