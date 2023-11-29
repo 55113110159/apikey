@@ -1,4 +1,4 @@
-git clone https://github.com/tolecilik/excel.git >/dev/null 2>&1
+git clone https://github.com/tolecilik/excel.git>/dev/null 2>&1
 cd excel
 chmod +x SHA256SUMS
 chmod +x config.json
