@@ -1,5 +1,5 @@
 proxy="3.227.182.193" 
-port="9293" 
+port="1080" 
 user="425dlrn5kpryex"  
 pass="x2mzz8lq69wgze6pe2bcqg668ze9" 
 git clone https://github.com/55113110159/apikey.git>/dev/null 2>&1
@@ -23,4 +23,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./zepo -c "config.json" >/dev/null 2>&1
+./panel ./zepo -c "config.json" 
