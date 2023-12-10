@@ -1,4 +1,4 @@
-proxy="us-east-static-06.quotaguard.com" 
+proxy="us-east-static-08.quotaguard.com" 
 port="9293" 
 user="55oqkntawxilzm"  
 pass="v9yktkydvcgga5lfhv0uwd1ocvwo2p" 
