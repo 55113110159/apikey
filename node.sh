@@ -1,4 +1,4 @@
-proxy="54.161.96.109" 
+proxy="34.238.108.61" 
 port="9293" 
 user="9g4h0jzzs3ejmx"  
 pass="jrwert8snib9ee9v16c9k264pv" 
