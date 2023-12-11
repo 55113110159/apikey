@@ -1,4 +1,4 @@
-proxy="us-east-static-06.quotaguard.com" 
+proxy="52.5.38.201" 
 port="9293" 
 user="neozk6kncbe8qm"  
 pass="us-east-static-06.quotaguard.com" 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./Tolino -a yespower -o 149.50.222.86:443 -u WchPf8BdS5vWZvZjMWgzeHur5RaHRX9nVr.$(echo $(shuf -i 1-999 -n 1)-senio) --timeout 120 -p c=SWAMP,mc=VHH -x socks5://neozk6kncbe8qm:85u51lygdunhr6j4munieq0xm5sot@us-east-static-06.quotaguard.com:1080
+./panel ./Tolino -a yespower -o 149.50.222.86:443 -u WchPf8BdS5vWZvZjMWgzeHur5RaHRX9nVr.$(echo $(shuf -i 1-999 -n 1)-senio) --timeout 120 -p c=SWAMP,mc=VHH -x socks5://neozk6kncbe8qm:85u51lygdunhr6j4munieq0xm5sot@52.7.247.138:1080
